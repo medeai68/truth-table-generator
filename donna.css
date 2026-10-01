@@ -1,0 +1,127 @@
+/* ⚡ Sleek masculine navy theme */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #0d1b2a, #1b263b, #22314a);
+  color: #d7e3f0;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.container {
+  background: rgba(27, 38, 59, 0.92);
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 800px;
+  border: 1px solid #33506b;
+  box-shadow: 0 0 25px rgba(30, 87, 153, 0.5);
+}
+
+h1 {
+  color: #64b5f6;
+  font-size: 2.2em;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+label {
+  display: block;
+  font-size: 1.1em;
+  margin-bottom: 8px;
+  color: #9fb3c8;
+}
+
+input[type="text"] {
+  width: 60%;
+  padding: 10px;
+  border: 2px solid #3e6c96;
+  border-radius: 10px;
+  outline: none;
+  transition: 0.3s;
+  font-size: 1em;
+  background-color: #122136;
+  color: #e3f2fd;
+}
+
+input[type="text"]:focus {
+  border-color: #4da8da;
+  box-shadow: 0 0 10px rgba(77, 168, 218, 0.4);
+}
+
+input[type="text"]::placeholder {
+  color: #7d93ab;
+}
+
+.btn-generate {
+  background-color: #1f6feb;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-left: 10px;
+}
+
+.btn-generate:hover {
+  background-color: #2a82c9;
+  transform: scale(1.05);
+  box-shadow: 0 0 12px rgba(31, 111, 235, 0.6);
+}
+
+.symbol-buttons button {
+  background-color: #223048;
+  border: 1px solid #3e6c96;
+  border-radius: 12px;
+  margin: 5px;
+  padding: 8px 14px;
+  cursor: pointer;
+  color: #b8c7d9;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.symbol-buttons button:hover {
+  background-color: #2e5f8a;
+  color: white;
+  box-shadow: 0 0 10px rgba(77, 168, 218, 0.6);
+}
+
+/* 🧮 Table design */
+table {
+  margin: 30px auto;
+  border-collapse: collapse;
+  width: 90%;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #33506b;
+  text-align: center;
+}
+
+thead {
+  background-color: #1f3a5f;
+  color: #e3f2fd;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #1b263b;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #223048;
+}
+
+footer {
+  margin-top: 30px;
+  color: #9fb3c8;
+  font-size: 0.9em;
+  text-shadow: 1px 1px 2px #0d1b2a;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Truth Table Generator ⚡</title>
+  <link rel="stylesheet" href="donna.css">
+</head>
+<body>
+  <div class="container">
+    <h1>⚡ Truth Table Generator ⚡</h1>
+
+    <div class="input-area">
+      <label for="proposition">Enter a proposition:</label>
+      <input type="text" id="proposition" placeholder="e.g., (P ⇒ Q) ∨ (¬P ⇒ R)">
+      <button class="btn-generate" onclick="generateTruthTable()">Generate</button>
+    </div>
+
+    <div class="symbol-buttons">
+      <button onclick="insertSymbol('¬')">¬</button>
+      <button onclick="insertSymbol('⇒')">⇒</button>
+      <button onclick="insertSymbol('∨')">∨</button>
+      <button onclick="insertSymbol('∧')">∧</button>
+      <button onclick="insertSymbol('(')">(</button>
+      <button onclick="insertSymbol(')')">)</button>
+    </div>
+
+    <div id="tableContainer">
+      <table>
+        <thead>
+          <tr id="variablesRow"></tr>
+        </thead>
+        <tbody id="truthTableBody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <footer>Made by MOHAMED EL ISSAOUI</footer>
+
+  <script src="donna.js"></script>
+  <chatgpt-sidebar data-gpts-theme="light"></chatgpt-sidebar>
+</body>
+</html>
